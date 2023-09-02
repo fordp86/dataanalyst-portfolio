@@ -66,7 +66,7 @@ const AboutTwo = () => {
 
           <div className="  pb-12 px-2 sm:px-5 md:px-10 lg:px-14 ">
             <h3 className="text-[35px] dark:text-white font-medium pb-5">
-              What I do!
+              What I dos!
             </h3>
             <div className="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2 ">
               {/* Experience information  */}
