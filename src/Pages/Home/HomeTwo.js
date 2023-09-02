@@ -20,7 +20,7 @@ const HomeTwo = () => {
       <PageTitle title="Home"></PageTitle>
       {/* End pagetitle */}
 
-      <section className="bg-homeBg dark:bg-homeTwoBg-dark min-h-screen  bg-no-repeat bg-center bg-cover bg-fixed  md:pb-16 w-full">
+      <section className="min-h-screen  bg-no-repeat bg-center bg-cover bg-fixed  md:pb-16 w-full bg-cream">
         <div
           className="container   w-full bg-[#F3F6F6] dark:bg-black lg:bg-transparent lg:dark:bg-transparent flex justify-between py-5  lg:px-0 lg:pt-[50px]"
           data-aos="fade"
@@ -29,12 +29,12 @@ const HomeTwo = () => {
             {/* website logo */}
 
             <Link to="/">
-              <img className="h-[26px] lg:h-[32px]" src={logo} alt="logo" />
+              <img className="h-[26px] lg:h-[96px]" src={logo} alt="logo" />
             </Link>
             <div className="flex items-center">
               {/* dark and light mode button */}
 
-              {!check ? (
+              {/* {!check ? (
                 <span
                   onClick={() => handle("dark")}
                   className="bg-white w-[40px] h-[40px] lg:w-[50px] lg:h-[50px] rounded-full flex justify-center items-center hover:bg-[#ef4060] text-black hover:text-white transition-all duration-300 ease-in-out cursor-pointer  "
@@ -48,7 +48,7 @@ const HomeTwo = () => {
                 >
                   <FiSun className="text-white text-3xl" />
                 </span>
-              )}
+              )} */}
 
               {/* mobile menu button */}
 
