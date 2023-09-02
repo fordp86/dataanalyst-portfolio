@@ -193,76 +193,6 @@ const AllData = () => {
       description:
         "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
     },
-    {
-      id: "5",
-      tag: "UI/UX",
-      title: "Chul urina",
-      img: work5,
-      imgSmall: workSmall5,
-      bg: "#FFFAE9",
-      client: "Envato",
-      langages: "Photoshop",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
-    {
-      id: "6",
-      tag: "Video",
-      title: "Chul urina",
-      img: work6,
-      imgSmall: workSmall6,
-      bg: "#F4F4FF",
-      client: "Envato",
-      langages: "Vimeo",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
-    {
-      id: "7",
-      tag: "UI/UX",
-      title: "Chul urina",
-      img: work7,
-      imgSmall: workSmall7,
-      bg: "#FFF0F8",
-      client: "Envato",
-      langages: "Photoshop",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
-    {
-      id: "8",
-      tag: "Web Design",
-      title: "Chul urina",
-      img: work8,
-      imgSmall: workSmall8,
-      bg: "#FFF0F8",
-      client: "Envato",
-      langages: "HTML, CSS, Javascript",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
-    {
-      id: "9",
-      tag: "Logo",
-      title: "Chul urina",
-      img: work9,
-      imgSmall: workSmall9,
-      bg: "#FCF4FF",
-      client: "Feepik",
-      langages: "Figma",
-      link: "https://www.freepik.com/free-photos-vectors/market-logo",
-      linkText: "www.freepik.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
   ];
   const [data, setData] = useState(workItems);
 
@@ -398,12 +328,6 @@ const AllData = () => {
     },
     {
       id: "04",
-      name: "Blogs",
-      link: "/homeTwo/blogs",
-      icon: <FaBlogger />,
-    },
-    {
-      id: "05",
       name: "Contact",
       link: "/homeTwo/contact",
       icon: <RiContactsBookLine />,

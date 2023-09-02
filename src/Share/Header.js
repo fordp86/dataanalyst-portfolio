@@ -23,7 +23,11 @@ const Header = () => {
               <Link className="text-5xl font-semibold" to="/">
                 {/* website logo  */}
 
-                <img className="h-[26px] lg:h-[32px]" src={logo} alt="" />
+                <img
+                  className="h-[52px] lg:h-[64px]"
+                  src={logo}
+                  alt="Ford Henley Logo"
+                />
               </Link>
               <div className="flex items-center">
                 {/* dark mode icon */}
