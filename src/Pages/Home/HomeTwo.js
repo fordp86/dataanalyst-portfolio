@@ -20,7 +20,7 @@ const HomeTwo = () => {
       <PageTitle title="Home"></PageTitle>
       {/* End pagetitle */}
 
-      <section className="min-h-screen  bg-no-repeat bg-center bg-cover bg-fixed  md:pb-16 w-full">
+      <section className="min-h-screen  bg-no-repeat bg-center bg-cover bg-fixed  md:pb-16 w-full bg-cream">
         <div
           className="container   w-full bg-[#F3F6F6] dark:bg-black lg:bg-transparent lg:dark:bg-transparent flex justify-between py-5  lg:px-0 lg:pt-[50px]"
           data-aos="fade"
