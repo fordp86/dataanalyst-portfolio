@@ -285,12 +285,6 @@ const AllData = () => {
       link: "/home/works",
       icon: <FiCodesandbox />,
     },
-    {
-      id: "04",
-      name: "Contact",
-      link: "/home/contact",
-      icon: <RiContactsBookLine />,
-    },
   ];
 
   // Slider image for Clients
