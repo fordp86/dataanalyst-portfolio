@@ -116,7 +116,7 @@ const HomeCard = () => {
           <a
             href={cvFile}
             download
-            className="inline-flex items-center mx-auto bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
+            className="inline-flex items-center mx-auto bg-gradient-to-r from-[#a9aa71] to-[#a9aa71] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#a9aa71]  to-[#a9aa71] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
           >
             <img src={downloadIcon} alt="icon" className="mr-2" />
             Download CV
