@@ -28,7 +28,6 @@ function App() {
               <Route path="about" element={<AboutTwo />} />
               <Route path="resume" element={<ResumeTwo />} />
               <Route path="works" element={<PortfiloTwo />} />
-              <Route path="contact" element={<ContactTwo />} />
             </Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
