@@ -71,35 +71,35 @@ const CommonPortfilo = ({ condition, items }) => {
                 </li>
                 <li
                   className={`${
-                    test === "Video" ? "text-[#FA5252]" : "fillter-btn"
+                    test === "Excel" ? "text-[#FA5252]" : "fillter-btn"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Video")}
+                  onClick={() => handleSearch("Excel")}
                 >
-                  Video
+                  Excel
                 </li>
                 <li
                   className={`${
-                    test === "Web Design" ? "text-[#FA5252]" : "fillter-btn"
+                    test === "SQL" ? "text-[#FA5252]" : "fillter-btn"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Web Design")}
+                  onClick={() => handleSearch("SQL")}
                 >
-                  Web Design
+                  SQL
                 </li>
                 <li
                   className={`${
-                    test === "Logo" ? "text-[#FA5252]" : "fillter-btn ml-0"
+                    test === "Looker" ? "text-[#FA5252]" : "fillter-btn ml-0"
                   } mr-4 md:mx-4`}
-                  onClick={() => handleSearch("Logo")}
+                  onClick={() => handleSearch("Looker")}
                 >
-                  Logo
+                  Looker
                 </li>
                 <li
                   className={`${
-                    test === "UI/UX" ? "text-[#FA5252]" : "fillter-btn"
+                    test === "Tableau" ? "text-[#FA5252]" : "fillter-btn"
                   }  `}
-                  onClick={() => handleSearch("UI/UX")}
+                  onClick={() => handleSearch("Tableau")}
                 >
-                  Graphic Design
+                  Tableau
                 </li>
               </ul>
 
@@ -168,7 +168,7 @@ const CommonPortfilo = ({ condition, items }) => {
                       <p className="flex items-center text-[15px]  sm:text-lg ">
                         <FiFilePlus className="sm:text-lg hidden sm:block mr-2  md:text-xl" />
                         Project :&nbsp;{" "}
-                        <span className="font-medium "> Website</span>
+                        <span className="font-medium "> Visualization</span>
                       </p>
                       <p className="flex items-center text-[15px]  sm:text-lg ">
                         <FiCode className="text-lg mr-2 hidden sm:block " />

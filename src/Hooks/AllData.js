@@ -4,21 +4,13 @@ import work1 from "../assets/images/work_images/1.jpg";
 import work2 from "../assets/images/work_images/2.jpg";
 import work3 from "../assets/images/work_images/3.jpg";
 import work4 from "../assets/images/work_images/4.jpg";
-import work5 from "../assets/images/work_images/5.jpg";
-import work6 from "../assets/images/work_images/6.jpg";
-import work7 from "../assets/images/work_images/7.jpg";
-import work8 from "../assets/images/work_images/8.jpg";
-import work9 from "../assets/images/work_images/9.jpg";
+
 // works small images
 import workSmall1 from "../assets/images/work_images/small/1.jpg";
 import workSmall2 from "../assets/images/work_images/small/2.jpg";
 import workSmall3 from "../assets/images/work_images/small/3.jpg";
 import workSmall4 from "../assets/images/work_images/small/4.jpg";
-import workSmall5 from "../assets/images/work_images/small/5.jpg";
-import workSmall6 from "../assets/images/work_images/small/6.jpg";
-import workSmall7 from "../assets/images/work_images/small/7.jpg";
-import workSmall8 from "../assets/images/work_images/small/8.jpg";
-import workSmall9 from "../assets/images/work_images/small/9.jpg";
+
 // blog post images
 import blog6 from "../assets/images/blog_images/6.jpg";
 import blog4 from "../assets/images/blog_images/4.jpg";
@@ -44,8 +36,7 @@ import icon from "../assets/images/icons/icon-1.svg";
 import icon1 from "../assets/images/icons/icon-2.svg";
 import icon2 from "../assets/images/icons/icon-3.svg";
 import icon3 from "../assets/images/icons/icon-4.svg";
-import icon4 from "../assets/images/icons/icon-5.svg";
-import icon5 from "../assets/images/icons/icon-6.svg";
+
 // contact image
 import iconPhone from "../assets/images/contact/phone-call 1.png";
 import iconEmail from "../assets/images/contact/email 1.png";
@@ -139,59 +130,31 @@ const AllData = () => {
   const workItems = [
     {
       id: "1",
-      tag: "UI/UX",
-      title: "Chul urina",
+      tag: "Looker",
+      title: "Performance Tracker",
       img: work1,
       imgSmall: workSmall1,
       bg: "#FFF0F0",
-      client: "Envato",
-      langages: "Photoshop, Figma",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
+      client: "Sport Clips (Franchise)",
+      langages: "Excel, Looker, Visualization",
+      link: "https://lookerstudio.google.com/reporting/25da1e17-6661-4169-ab1a-5f9fcb1fce81",
+      linkText: "www.lookerstudio.com",
       description:
-        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia placeat magnam possimus iusto blanditiis pariatur labore explicabo quo repellat hic dolorum numquam asperiores, voluptatum fugiat reiciendis aspernatur, non, odio aperiam voluptas ex tempora vitae. Dolor, consequatur quidem! Quas magni distinctio dolorum dolore natus, vel numquam accusamus. Nostrum eligendi recusandae qui tempore deserunt!",
+        "Development a custom performance tracker using Google Looker Studio and Google Sheets. Data is store in Google Sheets. The data is updated weekly and monthly in realtime in Looker Studio.",
     },
     {
       id: "2",
-      tag: "Web Design",
-      title: "Aura Dione",
+      tag: "Excel",
+      title: "Store Payroll Calculator",
       img: work2,
       imgSmall: workSmall2,
       bg: "#FFF3FC",
-      client: "Themeforest",
-      langages: "HTML, CSS, Javascript",
-      link: "https://www.themeforest.net",
-      linkText: "themeforest.net",
+      client: "Sport Clips (Franchise)",
+      langages: "Excel, Forumulas, Conditional Formatting",
+      link: "https://docs.google.com/spreadsheets/d/1k_kP1KbaCbFWKG4TRRtw9nI-ygtBqncQplfY2Ga33XA/edit?usp=sharing",
+      linkText: "Google Sheets",
       description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
-    {
-      id: "3",
-      tag: "Logo",
-      title: "Chul urina",
-      img: work3,
-      imgSmall: workSmall3,
-      bg: "#FFF0F0",
-      client: "Freepik",
-      langages: "Illustrator",
-      link: "https://www.freepik.com/free-photos-vectors/market-logo",
-      linkText: "www.freepik.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
-    },
-    {
-      id: "4",
-      tag: "Video",
-      title: "Chul urina",
-      img: work4,
-      imgSmall: workSmall4,
-      bg: "#E9FAFF",
-      client: "Envato",
-      langages: "After Effect",
-      link: "https://www.envato.com",
-      linkText: "www.envato.com",
-      description:
-        "  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate non suscipit voluptatibus minima ullam maiores sequi nihil placeat error, vero eaque doloremque reiciendis amet pariatur consequuntur. Nostrum, dolore, amet eligendi ipsam enim quisquam, corrupti asperiores nihil excepturi aspernatur placeat iure.",
+        "Initiated the development of a custom payroll spreadsheet in Google Sheets to manage and calculate all three of our stores payroll in one sheet for the year instead of in three separate sheets every payroll run.",
     },
   ];
   const [data, setData] = useState(workItems);
@@ -354,7 +317,7 @@ const AllData = () => {
       id: "1",
       icon: icon,
       title: "Excel",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      des: "I utilize excel to create custom remports and trackers with formulas and conditional formatting.",
       color: "#D566FF",
       bg: "#FCF4FF",
     },
@@ -362,7 +325,7 @@ const AllData = () => {
       id: "2",
       icon: icon1,
       title: "SQL Scripting",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      des: "I have 3 years of experience with SQL in Web Development and I am learning how to use SQL in data maninpulation.",
       color: "#DDA10C",
       bg: "#FEFAF0",
     },
@@ -370,7 +333,7 @@ const AllData = () => {
       id: "3",
       icon: icon2,
       title: "Visualization",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      des: "I have used Looker Studio fro 3 years for Visualization and I am leanring how to use Tableau and Power BI.",
       color: "#8774FF",
       bg: "#FCF4FF",
     },
@@ -378,7 +341,7 @@ const AllData = () => {
       id: "4",
       icon: icon3,
       title: "R",
-      des: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod volutpat.",
+      des: "I have 3 years of Javascript experience and I am using that experience to learn the R programming language for Statistics.",
       color: "#FF6080",
       bg: "#FFF4F4",
     },
@@ -388,25 +351,25 @@ const AllData = () => {
   const educationArray = [
     {
       id: 1,
-      date: "2021-2023",
-      title: "Ph.D in Horriblensess ",
-      place: "ABC University, Los Angeles, CA",
+      date: "2023-Present",
+      title: "Google Data Analytics Certificate",
+      place: "Coursera",
       bg: "#FFF4F4",
     },
 
     {
       id: 2,
-      date: "2019 - Present",
-      title: "Sr. Software Tester",
-      place: "Google Inc.",
+      date: "2022",
+      title: "Full Stack Web Development",
+      place: "Bethel School of Technology",
       bg: "#FFF1FB",
     },
 
     {
       id: 3,
-      date: "2021",
-      title: "Best Developer ",
-      place: "University Of Melbourne, NA",
+      date: "2005-2009",
+      title: "B.S. Business Management",
+      place: "University Of Alabama, AL",
       bg: "#FFF4F4",
     },
   ];
@@ -414,26 +377,18 @@ const AllData = () => {
   const experiencesArray = [
     {
       id: 1,
-      date: "2017-2021",
-      title: "Computer Science",
-      place: "Imperialize Technical Institute",
+      date: "2014-Present",
+      title: "Business Analyst",
+      place: "Sport Clips (Franchise)",
       bg: "#EEF5FA",
     },
 
     {
       id: 2,
-      date: "2015-2017",
-      title: "Cr. Web Developer",
-      place: "ib-themes ltd.",
+      date: "2017-2022",
+      title: "Owner / Product Owner ",
+      place: "Ford's Web Help",
       bg: "#F2F4FF",
-    },
-
-    {
-      id: 3,
-      date: "2008",
-      title: "Best Writter",
-      place: "Online Typodev Soluation Ltd.",
-      bg: "#EEF5FA",
     },
   ];
   // awardsArray items for Resume page
@@ -505,8 +460,8 @@ const AllData = () => {
       id: "02",
       icon: iconEmail,
       title: "Email ",
-      item1: "support@gmail.com",
-      item2: "example@gmail.com",
+      item1: "fordp86@gmail.com",
+      item2: "fordp86@gmail.com",
       bg: "#EEFBFF",
     },
     {

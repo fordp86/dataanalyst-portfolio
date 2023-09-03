@@ -30,15 +30,14 @@ const AboutTwo = () => {
                 <div className="col-span-12 space-y-2.5">
                   <div className="lg:mr-16">
                     <p className="text-gray-lite leading-7">
-                      I'm Creative Director and UI/UX Designer from Sydney,
-                      Australia, working in web development and print media. I
-                      enjoy turning complex problems into simple, beautiful and
-                      intuitive designs.
+                      I'm an aspiring Data Analyst with over 5 years of
+                      experience working in Web Development, Business Analysis
+                      and Project Management.
                     </p>
                     <p className="text-gray-lite leading-7 mt-2.5">
-                      My aim is to bring across your message and identity in the
-                      most creative way. I created web design for many famous
-                      brand companies.
+                      My goal is to provide your organization realiable data and
+                      insights to help you make accurate and complex business
+                      decisions.
                     </p>
                   </div>
                 </div>
@@ -48,15 +47,14 @@ const AboutTwo = () => {
               <div className="col-span-12 space-y-2.5">
                 <div className="lg:mr-16">
                   <p className="text-gray-lit leading-7">
-                    I'm Creative Director and UI/UX Designer from Sydney,
-                    Australia, working in web development and print media. I
-                    enjoy turning complex problems into simple, beautiful and
-                    intuitive designs.
+                    I'm an aspiring Data Analyst with over 5 years of experience
+                    working in Web Development, Business Analysis and Project
+                    Management.
                   </p>
                   <p className="text-gray-lite leading-7 mt-2.5">
-                    My aim is to bring across your message and identity in the
-                    most creative way. I created web design for many famous
-                    brand companies.
+                    My goal is to provide your organization realiable data and
+                    insights to help you make accurate and complex business
+                    decisions.
                   </p>
                 </div>
               </div>
@@ -65,7 +63,7 @@ const AboutTwo = () => {
           {/* End about descriptions */}
 
           <div className="  pb-12 px-2 sm:px-5 md:px-10 lg:px-14 ">
-            <h3 className="text-[35px] font-medium pb-5">What I dos!</h3>
+            <h3 className="text-[35px] font-medium pb-5">What I do!</h3>
             <div className="grid gap-8 grid-cols-1 md:grid-cols-2 xl:grid-cols-2 ">
               {/* Experience information  */}
 

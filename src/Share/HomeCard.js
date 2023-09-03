@@ -26,7 +26,7 @@ const HomeCard = () => {
         <div className="pt-[100px] pb-8">
           <h1 className="mt-6 mb-1 text-5xl font-semibold">Ford Henley</h1>
           <h3 className="mb-4 text-[#7B7B7B] inline-block px-5 py-1.5 rounded-lg">
-            Data Analyst
+            Data Analyst, Business Analyst
           </h3>
 
           {/* Social Links */}
