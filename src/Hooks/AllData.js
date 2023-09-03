@@ -2,14 +2,10 @@ import { useEffect, useState } from "react";
 // for work_images
 import work1 from "../assets/images/work_images/1.jpg";
 import work2 from "../assets/images/work_images/2.jpg";
-import work3 from "../assets/images/work_images/3.jpg";
-import work4 from "../assets/images/work_images/4.jpg";
 
 // works small images
 import workSmall1 from "../assets/images/work_images/small/1.jpg";
 import workSmall2 from "../assets/images/work_images/small/2.jpg";
-import workSmall3 from "../assets/images/work_images/small/3.jpg";
-import workSmall4 from "../assets/images/work_images/small/4.jpg";
 
 // blog post images
 import blog6 from "../assets/images/blog_images/6.jpg";
@@ -150,7 +146,7 @@ const AllData = () => {
       imgSmall: workSmall2,
       bg: "#FFF3FC",
       client: "Sport Clips (Franchise)",
-      langages: "Excel, Forumulas, Conditional Formatting",
+      langages: "Excel, Forumulas, Formatting",
       link: "https://docs.google.com/spreadsheets/d/1k_kP1KbaCbFWKG4TRRtw9nI-ygtBqncQplfY2Ga33XA/edit?usp=sharing",
       linkText: "Google Sheets",
       description:
