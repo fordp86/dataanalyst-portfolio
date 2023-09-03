@@ -12,7 +12,7 @@ const ResumeTwo = () => {
       <PageTitle title="Resume"></PageTitle>
       {/* End pagetitle */}
 
-      <section className="bg-white  lg:rounded-2xl dark:bg-[#111111]">
+      <section className="bg-white  lg:rounded-2xl">
         <div data-aos="fade">
           <div className="container sm:px-5 md:px-10 lg:px-14">
             <div className="py-12 px-4 md:px-0">
@@ -26,35 +26,24 @@ const ResumeTwo = () => {
           </div>
           {/* End .container */}
 
-          <div className="container bg-color-810 dark:bg-[#0D0D0D] py-12 px-2 sm:px-5 md:px-10 lg:px-20">
+          <div className="container bg-color-810 py-12 px-2 sm:px-5 md:px-10 lg:px-20">
             <div className="grid grid-cols-1  md:grid-cols-2 gap-8">
-              <div className="col-span-1">
-                <h4 className="text-5xl dark:text-white font-medium mb-6">
-                  Working Skills
-                </h4>
-                {/* Experience percent element */}
-                {lineArray.map((item, i) => (
-                  <LineItem item={item} key={i} />
-                ))}
-              </div>
-
               {/* knowledge section start */}
 
-              <div className="col-span-1">
+              <div className="col-span-2">
                 <h4 className="text-5xl dark:text-white font-medium mb-8">
-                  Knowledges
+                  Skills
                 </h4>
 
                 {/* Knowledges items */}
 
                 <div className="flex gap-y-5 gap-x-2.5 flex-wrap">
-                  <button className="resume-btn">Digital Design</button>
-                  <button className="resume-btn">Marketing</button>
-                  <button className="resume-btn">Social Media</button>
-                  <button className="resume-btn">Print</button>
-                  <button className="resume-btn">Time Management</button>
-                  <button className="resume-btn">Flexibility</button>
-                  <button className="resume-btn">Print</button>
+                  <button className="resume-btn">SQL/MySQL</button>
+                  <button className="resume-btn">Excel</button>
+                  <button className="resume-btn">Looker Studio</button>
+                  <button className="resume-btn">Tableau</button>
+                  <button className="resume-btn">Power BI</button>
+                  <button className="resume-btn">R</button>
                 </div>
               </div>
 

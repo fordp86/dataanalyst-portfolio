@@ -54,11 +54,9 @@ const CommonContact = ({ condition }) => {
       } bg-color-810 rounded-xl mb-[30px] md:mb-[60px]`}
     >
       <h3 className="text-4xl  ">
-        <span className="text-gray-lite">
-          I'm always open to discussing product
-        </span>
+        <span className="text-gray-lite">I'm always open to discussing</span>
         <br />
-        <span className="font-semibold">design work or partnerships.</span>
+        <span className="font-semibold">remote or hybrid opportunites.</span>
       </h3>
 
       {/* Form Start */}
