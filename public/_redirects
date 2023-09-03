@@ -1,2 +1,3 @@
-# Redirect to home page
-/*    /home     301
+/*    /index.html    200
+# Redirect with a 301
+/    /home           302
