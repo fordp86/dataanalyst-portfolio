@@ -1,1 +1,3 @@
 /*    /index.html    200
+# Redirect with a 301
+/    /home           301
