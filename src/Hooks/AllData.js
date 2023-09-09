@@ -2,10 +2,12 @@ import { useEffect, useState } from "react";
 // for work_images
 import work1 from "../assets/images/work_images/1.jpg";
 import work2 from "../assets/images/work_images/2.jpg";
+import work3 from "../assets/images/work_images/3.jpg";
 
 // works small images
 import workSmall1 from "../assets/images/work_images/small/1.jpg";
 import workSmall2 from "../assets/images/work_images/small/2.jpg";
+import workSmall3 from "../assets/images/work_images/small/3.jpg";
 
 // blog post images
 import blog6 from "../assets/images/blog_images/6.jpg";
@@ -151,6 +153,20 @@ const AllData = () => {
       linkText: "Google Sheets",
       description:
         "Initiated the development of a custom payroll spreadsheet in Google Sheets to manage and calculate all three of our stores payroll in one sheet for the year instead of in three separate sheets every payroll run.",
+    },
+    {
+      id: "3",
+      tag: "Tableau",
+      title: "Executive Overview",
+      img: work3,
+      imgSmall: workSmall3,
+      bg: "#FFF3FC",
+      client: "Personal Project",
+      langages: "Excel, Tableau, Dashboard",
+      link: "https://public.tableau.com/views/ExecutiveOverview_16932597169960/ExecutiveOverview?:language=en-US&:display_count=n&:origin=viz_share_link",
+      linkText: "Tableau",
+      description:
+        "Built the Tableau Public tutorial and created a custom dashboard to filter sales performance by state.",
     },
   ];
   const [data, setData] = useState(workItems);
